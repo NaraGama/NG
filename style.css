@@ -1,66 +1,96 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-
-header {
-  background-color: #0077b6;
-  padding: 10px;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-}
-
-nav ul li {
-  margin: 0 10px;
-  position: relative;
-}
-
-nav ul li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-nav ul li a:hover {
-  background-color: #005691;
-}
-
-nav ul:not(:last-child) {
-    border-right: 1px solid #ccc;
-    padding-right: 10px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center; /* Menengahkan menu */
   }
   
-.submenu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #0077b6;
-  min-width: 120px;
-}
-
-nav ul li:hover .submenu {
-  display: block;
-}
-
-.submenu li {
-  margin: 0;
-}
-
-.submenu li a {
-  padding: 10px;
-}
+  li {
+    display: inline-block; /* Mengatur menu menjadi horizontal */
+    margin-right: 10px;
+  }
+  
+  li:last-child {
+    margin-right: 0;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  /* BAGIAN BIODATA */
+  header {
+    text-align: center;
+    background-color: #333;
+    padding: 20px;
+    color: white;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+  }
+  
+  .profile {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .assignment {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .assignment h2 {
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .box {
+    display: inline-block;
+    padding: 0.5em 1em; /* Menggunakan padding untuk menyesuaikan ukuran box */
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px; /* Contoh ukuran font, sesuaikan dengan kebutuhan Anda */
+  }
+  
+  .box a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
