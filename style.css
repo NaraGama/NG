@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: blue;
     text-align: center; /* Menengahkan menu */
   }
   
@@ -31,7 +31,7 @@ ul {
   /* BAGIAN BIODATA */
   header {
     text-align: center;
-    background-color: #333;
+    background-color: black;
     padding: 20px;
     color: white;
   }
@@ -81,7 +81,8 @@ ul {
     padding: 0.5em 1em; /* Menggunakan padding untuk menyesuaikan ukuran box */
     background-color: black;
     color: white;
-    border-radius: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px blue;
     margin: 10px;
     font-size: 16px; /* Contoh ukuran font, sesuaikan dengan kebutuhan Anda */
   }
